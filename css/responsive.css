@@ -1,0 +1,102 @@
+/* responsive css*/
+
+@media (min-width:992px) and (max-width:1199px) {}
+
+/* Tablet Screen Media */
+
+@media (min-width: 769px) and (max-width: 991px) {
+
+
+    .single_features {
+        padding: 50px 0px;
+        width: 60%;
+        margin: 0 auto;
+    }
+
+    .main_menu_bg .navbar-default .navbar-nav > .active > a,
+    .navbar-default .navbar-nav > .active > a:hover,
+    .navbar-default .navbar-nav > .active > a:focus {
+        border: 0;
+    }
+
+
+
+}
+
+/* Mobile Phone Screen Media */
+
+@media (max-width: 768px) {
+    .main_menu_bg .navbar-default .navbar-nav > .active > a,
+    .navbar-default .navbar-nav > .active > a:hover,
+    .navbar-default .navbar-nav > .active > a:focus {
+        border: 0;
+    }
+
+    .single_special_img img {
+        width: 100%;
+    }
+
+    .single_contact {
+        text-align: center;
+    }
+    
+    .contact_form_area {
+    }
+    
+    .contact_form_area h3 {
+        text-align: center;
+        margin-bottom: 0;
+    }
+    
+    
+    .single_contact {
+        margin-bottom: 40px;
+        margin-left: 10px;
+    }
+
+    .single_footer {
+        text-align: center;
+    }
+
+
+}
+
+/* Mobile Phone Screen Media */
+
+@media (min-width: 320px) and (max-width: 480px) {
+    
+    .main_menu_bg .navbar-default .navbar-nav > .active > a,
+    .navbar-default .navbar-nav > .active > a:hover,
+    .navbar-default .navbar-nav > .active > a:focus {
+        border: 0;
+    }
+    
+    .single_banner_text{
+        padding-top: 100px;
+    } 
+
+    .banner .scroll_btn {
+        display: none;
+    }
+
+    .navbar-collapse{
+        background-color: rgba(255,255,255,0.8);
+        text-align: center;
+    }
+    
+    .main_banner_area {
+        padding: 0px;
+        overflow: hidden;
+    }
+
+    .single_special_overlay h3 {
+        font-size: 16px;
+    }
+
+    .single_special_overlay p {
+        font-size: 14px;
+        font-weight: 300;
+        margin-top: 5px;
+    }
+
+}
